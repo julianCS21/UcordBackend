@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping(value = "/U-cord/materias")
+@RequestMapping(value = "/repositoriocentral/materias")
 @CrossOrigin( origins = "*",  methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.DELETE}) //es un protocolo estándar que define la interacción entre un navegador y un servidor para manejar de forma segura las solicitudes HTTP de origen cruzado.
 public class MateriaAPIController {
 

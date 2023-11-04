@@ -12,15 +12,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-/**
- * @author Ana Gabriela Silva
- * @author Leonardo Galeano
- * @author Iván Camilo Rincón Saavedra
- * @version 9/28/2021
- */
 
 @RestController
-@RequestMapping(value = "/U-cord/decanaturas")
+@RequestMapping(value = "/repositoriocentral/decanaturas")
 @CrossOrigin( origins = "*" ) //es un protocolo estándar que define la interacción entre un navegador y un servidor para manejar de forma segura las solicitudes HTTP de origen cruzado.
 public class DecanaturaAPIController {
 
