@@ -1,0 +1,41 @@
+-- Drops
+-- -----------------------------------------------------
+DROP TABLE
+IF EXISTS Materia
+CASCADE;
+
+DROP TABLE
+IF EXISTS PreRequistioDe
+CASCADE;
+
+DROP TABLE
+IF EXISTS Persona
+CASCADE;
+
+DROP TABLE
+IF EXISTS Estudiante
+CASCADE;
+
+DROP TABLE
+IF EXISTS Profesor
+CASCADE;
+
+DROP TABLE
+IF EXISTS Decanatura
+CASCADE;
+
+DROP TABLE
+IF EXISTS PerteneceA
+CASCADE;
+
+DROP TABLE
+IF EXISTS HaAprobado
+CASCADE;
+
+DROP TABLE
+IF EXISTS Cursa
+CASCADE;
+
+DROP TABLE
+IF EXISTS MateriaPerteneceA
+CASCADE;
