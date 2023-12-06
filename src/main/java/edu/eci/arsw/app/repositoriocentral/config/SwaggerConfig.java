@@ -7,14 +7,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 
-/**
- * @author Ana Gabriela Silva
- * @author Leonardo Galeano
- * @author Iván Camilo Rincón Saavedra
- * @version 10/12/2021
- * Para acceder a swagger http://localhost:8080/your-app-root/swagger-ui/
-    Para  Generear un proyecto con springboot usar https://start.spring.io/
- */
 
 
 @Configuration
