@@ -1,1 +1,1 @@
-web: java $JAVA_OPT -Dserver.port=$PORT -cp target/classes:target/dependency/* edu.eci.arsw.app.UCordApp
+web: java $JAVA_OPT -Dserver.port=$PORT -cp target/classes:target/dependency/* edu.eci.arsw.app.repositorioCentralApp
